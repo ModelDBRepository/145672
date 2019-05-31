@@ -1,0 +1,416 @@
+//modified n160_mod.nrn with segments called "csiosi_soma", "csiosi_axon", "csiosi_apical", "csiosi_basal"
+/* csiosi_apical[117] diam changed from 1 to 0.4 */
+/* added csiosi_axon */
+/* lambda checked */
+{Numsoma=13 Numapical=127 Numbasal=60 Numaxon=2}
+create csiosi_soma[Numsoma], csiosi_apical[Numapical], csiosi_basal[Numbasal], csiosi_axon[Numaxon]
+
+csiosi_axon[0]  {nseg=5 diam=1 L=50}
+csiosi_axon[1]  {nseg=10 diam=0.7 L=250}
+csiosi_soma[0]  {nseg=1 diam= 3.4  L= .5  }
+csiosi_soma[1]  {nseg=1 diam= 3.4  L= .1  }
+csiosi_soma[2]  {nseg=1 diam= 5.8  L= .5852348  }
+csiosi_soma[3]  {nseg=1 diam= 7.4  L= 2.362393  }
+csiosi_soma[4]  {nseg=1 diam= 8.4  L= 1.030922  }
+csiosi_soma[5]  {nseg=1 diam= 9  L= 5.08973  }
+csiosi_soma[6]  {nseg=1 diam= 8.4  L= 2.161421  }
+csiosi_soma[7]  {nseg=1 diam= 7.4  L= 1.391761  }
+csiosi_soma[8]  {nseg=1 diam= 7  L= .7244999  }
+csiosi_soma[9]  {nseg=1 diam= 6.8  L= 1.021421  }
+csiosi_soma[10]  {nseg=1 diam= 5.8  L= .8354636  }
+csiosi_soma[11]  {nseg=1 diam= 4.8  L= .6500001  }
+csiosi_soma[12]  {nseg=1 diam= 4.2  L= 1.947434  }
+
+csiosi_apical[0]   {nseg=1 diam= 3.8  L= 2.715308  }
+csiosi_apical[1]   {nseg=1 diam= 3.6  L= 5.401713  }
+csiosi_apical[2]   {nseg=1 diam= 3  L= 3.876953  }
+csiosi_apical[3]   {nseg=1 diam= 3  L= 4.32302  }
+csiosi_apical[4]   {nseg=1 diam= 2.2  L= 9.503437  }
+csiosi_apical[5]   {nseg=2 diam= 2  L= 45.0123  }
+csiosi_apical[6]   {nseg=1 diam= 2  L= 31.20716  }
+csiosi_apical[7]   {nseg=1 diam= 2  L= 22.61171  }
+csiosi_apical[8]   {nseg=2 diam= 2  L= 37.90814  }
+csiosi_apical[9]   {nseg=1 diam= 2  L= 1.899714  }
+csiosi_apical[10]  {nseg=1 diam= 2  L= 2.305321  }
+csiosi_apical[11]  {nseg=1 diam= 2  L= 3.767573  }
+csiosi_apical[12]  {nseg=2 diam= 2  L= 33.49711  }
+csiosi_apical[13]  {nseg=3 diam= 2  L= 70.09814  }
+csiosi_apical[14]  {nseg=2 diam= 2  L= 40.81264  }
+csiosi_apical[15]  {nseg=1 diam= 2  L= 15.2801  }
+csiosi_apical[16]  {nseg=1 diam= 2  L= 17.47857  }
+csiosi_apical[17]  {nseg=8 diam= 1  L= 108.7753  }
+csiosi_apical[18]  {nseg=1 diam= .8  L= 10.96036  }
+csiosi_apical[19]  {nseg=2 diam= .8  L= 16.21915  }
+csiosi_apical[20]  {nseg=2 diam= .4  L= 26.14653  }
+csiosi_apical[21]  {nseg=6 diam= .4  L= 119.6609  }
+csiosi_apical[22]  {nseg=3 diam= .4  L= 39.18561  }
+csiosi_apical[23]  {nseg=3 diam= .4  L= 34.66425  }
+csiosi_apical[24]  {nseg=2 diam= .4  L= 31.36501  }
+csiosi_apical[25]  {nseg=2 diam= .4  L= 29.33217  }
+csiosi_apical[26]  {nseg=2 diam= 2  L= 31.1963  }
+csiosi_apical[27]  {nseg=4 diam= 1.4  L= 40.56636  }
+csiosi_apical[28]  {nseg=1 diam= 1.4  L= 4.73629  }
+csiosi_apical[29]  {nseg=5 diam= .8  L= 57.43425  }
+csiosi_apical[30]  {nseg=1 diam= .4  L= 21.68407  }
+csiosi_apical[31]  {nseg=1 diam= .4  L= 20.0452  }
+csiosi_apical[32]  {nseg=3 diam= .4  L= 64.84853  }
+csiosi_apical[33]  {nseg=3 diam= .4  L= 58.52066  }
+csiosi_apical[34]  {nseg=10 diam= .4  L= 230.365  }
+csiosi_apical[35]  {nseg=2 diam= .4  L= 37.58863  }
+csiosi_apical[36]  {nseg=4 diam= .4  L= 77.22144  }
+csiosi_apical[37]  {nseg=5 diam= .4  L= 112.0059  }
+csiosi_apical[38]  {nseg=2 diam= .4  L= 37.58242  }
+csiosi_apical[39]  {nseg=8 diam= .8  L= 89.90406  }
+csiosi_apical[40]  {nseg=1 diam= .8  L= 5.726318  }
+csiosi_apical[41]  {nseg=1 diam= .8  L= 1.514942  }
+csiosi_apical[42]  {nseg=2 diam= .8  L= 23.88437  }
+csiosi_apical[43]  {nseg=1 diam= .4  L= 3.340797  }
+csiosi_apical[44]  {nseg=1 diam= .4  L= 3.250262  }
+csiosi_apical[45]  {nseg=4 diam= .4  L= 86.1567  }
+csiosi_apical[46]  {nseg=3 diam= .4  L= 46.10009  }
+csiosi_apical[47]  {nseg=1 diam= .4  L= 23.62396  }
+csiosi_apical[48]  {nseg=4 diam= .4  L= 78.09839  }
+csiosi_apical[49]  {nseg=2 diam= .4  L= 41.05293  }
+csiosi_apical[50]  {nseg=3 diam= .4  L= 64.45201  }
+csiosi_apical[51]  {nseg=6 diam= .4  L= 135.1048  }
+csiosi_apical[52]  {nseg=4 diam= .4  L= 70.09399  }
+csiosi_apical[53]  {nseg=1 diam= .4  L= 11.29383  }
+csiosi_apical[54]  {nseg=3 diam= .4  L= 57.12379  }
+csiosi_apical[55]  {nseg=3 diam= .4  L= 51.23798  }
+csiosi_apical[56]  {nseg=1 diam= .4  L= .226719  }
+csiosi_apical[57]  {nseg=2 diam= .4  L= 42.9783  }
+csiosi_apical[58]  {nseg=6 diam= .4  L= 130.2097  }
+csiosi_apical[59]  {nseg=2 diam= .4  L= 26.79343  }
+csiosi_apical[60]  {nseg=5 diam= .4  L= 125.4406  }
+csiosi_apical[61]  {nseg=2 diam= .4  L= 32.70949  }
+csiosi_apical[62]  {nseg=2 diam= .4  L= 46.61235  }
+csiosi_apical[63]  {nseg=3 diam= .4  L= 55.72121  }
+csiosi_apical[64]  {nseg=5 diam= .4  L= 116.3788  }
+csiosi_apical[65]  {nseg=1 diam= .4  L= 13.57025  }
+csiosi_apical[66]  {nseg=6 diam= .4  L= 118.638  }
+csiosi_apical[67]  {nseg=1 diam= .4  L= 24.19888  }
+csiosi_apical[68]  {nseg=4 diam= .4  L= 96.23538  }
+csiosi_apical[69]  {nseg=3 diam= .4  L= 59.93812  }
+csiosi_apical[70]  {nseg=2 diam= .4  L= 64.90414  }
+csiosi_apical[71]  {nseg=1 diam= .4  L= .365519  }
+csiosi_apical[72]  {nseg=5 diam= .4  L= 118.724  }
+csiosi_apical[73]  {nseg=1 diam= .4  L= 5.153612  }
+csiosi_apical[74]  {nseg=7 diam= .4  L= 159.0847  }
+csiosi_apical[75]  {nseg=3 diam= .4  L= 65.16338  }
+csiosi_apical[76]  {nseg=3 diam= .8  L= 32.91693  }
+csiosi_apical[77]  {nseg=4 diam= .4  L= 84.05488  }
+csiosi_apical[78]  {nseg=3 diam= .8  L= 49.03632  }
+csiosi_apical[79]  {nseg=3 diam= .4  L= 65.3413  }
+csiosi_apical[80]  {nseg=7 diam= .4  L= 144.8597  }
+csiosi_apical[81]  {nseg=1 diam= .4  L= 2.782626  }
+csiosi_apical[82]  {nseg=1 diam= .4  L= 10.63182  }
+csiosi_apical[83]  {nseg=1 diam= .4  L= 14.79619  }
+csiosi_apical[84]  {nseg=1 diam= .4  L= 24.52155  }
+csiosi_apical[85]  {nseg=1 diam= .4  L= 19.95786  }
+csiosi_apical[86]  {nseg=1 diam= .4  L= 22.937  }
+csiosi_apical[87]   {nseg=1 diam= .4  L= 29.18237  }
+csiosi_apical[88]   {nseg=4 diam= .4  L= 93.45203  }
+csiosi_apical[89]   {nseg=3 diam= .4  L= 82.16525  }
+csiosi_apical[90]   {nseg=2 diam= 1  L= 28.88242  }
+csiosi_apical[91]   {nseg=1 diam= 1  L= 3.312038  }
+csiosi_apical[92]   {nseg=2 diam= 1  L= 31.43214  }
+csiosi_apical[93]   {nseg=4 diam= 1  L= 65.21848  }
+csiosi_apical[94]   {nseg=4 diam= 1  L= 65.93275  }
+csiosi_apical[95]   {nseg=1 diam= .4  L= 2.210091  }
+csiosi_apical[96]   {nseg=4 diam= .4  L= 80.05907  }
+csiosi_apical[97]   {nseg=1 diam= .4  L= 12.09364  }
+csiosi_apical[98]   {nseg=2 diam= .4  L= 40.26765  }
+csiosi_apical[99]   {nseg=2 diam= .4  L= 51.40726  }
+csiosi_apical[100]  {nseg=5 diam= .4  L= 113.2667  }
+csiosi_apical[101]  {nseg=6 diam= .4  L= 149.6538  }
+csiosi_apical[102]  {nseg=12 diam= .4  L= 271.828  }
+csiosi_apical[103]  {nseg=1 diam= .8  L= 19.2613  }
+csiosi_apical[104]  {nseg=5 diam= .4  L= 94.12336  }
+csiosi_apical[105]  {nseg=8 diam= .4  L= 170.9137  }
+csiosi_apical[106]  {nseg=1 diam= .8  L= 5.102267  }
+csiosi_apical[107]  {nseg=1 diam= .8  L= 10.26147  }
+csiosi_apical[108]  {nseg=6 diam= .4  L= 117.1293  }
+csiosi_apical[109]  {nseg=2 diam= .8  L= 30.43381  }
+csiosi_apical[110]  {nseg=4 diam= .4  L= 80.42423  }
+csiosi_apical[111]  {nseg=10 diam= .4  L= 202.9251  }
+csiosi_apical[112]  {nseg=7 diam= .4  L= 155.1176  }
+csiosi_apical[113]  {nseg=1 diam= 1.4  L= 11.20985  }
+csiosi_apical[114]  {nseg=1 diam= 1.4  L= 8.052182  }
+csiosi_apical[115]  {nseg=1 diam= .4  L= 17.14739  }
+csiosi_apical[116]  {nseg=1 diam= .4  L= 17.07239  }
+csiosi_apical[117]  {nseg=1 diam= .4  L= 3.802383  }
+csiosi_apical[118]  {nseg=4 diam= .4  L= 79.13516  }
+csiosi_apical[119]  {nseg=7 diam= .4  L= 132.4294  }
+csiosi_apical[120]  {nseg=1 diam= .8  L= 7.493482  }
+csiosi_apical[121]  {nseg=1 diam= .8  L= 16.02206  }
+csiosi_apical[122]  {nseg=1 diam= .4  L= 2.194287  }
+csiosi_apical[123]  {nseg=1 diam= .4  L= 14.77226  }
+csiosi_apical[124]  {nseg=4 diam= .4  L= 85.29885  }
+csiosi_apical[125]  {nseg=5 diam= .4  L= 108.0732  }
+csiosi_apical[126]  {nseg=4 diam= .4  L= 89.57475  }
+csiosi_basal[0]  {nseg=1 diam= .8  L= 2.888482  }
+csiosi_basal[1]  {nseg=1 diam= .8  L= 12.67608  }
+csiosi_basal[2]  {nseg=1 diam= .4  L= 6.226819  }
+csiosi_basal[3]  {nseg=2 diam= .4  L= 28.07395  }
+csiosi_basal[4]  {nseg=1 diam= .4  L= 19.26636  }
+csiosi_basal[5]  {nseg=1 diam= .4  L= 13.94479  }
+csiosi_basal[6]  {nseg=5 diam= .4  L= 110.2079  }
+csiosi_basal[7]  {nseg=4 diam= .4  L= 75.98547  }
+csiosi_basal[8]  {nseg=8 diam= .4  L= 153.798  }
+csiosi_basal[9]  {nseg=4 diam= .4  L= 91.32814  }
+csiosi_basal[10]  {nseg=3 diam= .4  L= 72.40762  }
+csiosi_basal[11]  {nseg=3 diam= .4  L= 68.55269  }
+csiosi_basal[12]  {nseg=1 diam= .8  L= 16.80424  }
+csiosi_basal[13]  {nseg=1 diam= .8  L= 14.56381  }
+csiosi_basal[14]  {nseg=1 diam= .4  L= .4899998  }
+csiosi_basal[15]  {nseg=1 diam= .4  L= 5.744193  }
+csiosi_basal[16]  {nseg=4 diam= .4  L= 116.2063  }
+csiosi_basal[17]  {nseg=3 diam= .4  L= 60.7986  }
+csiosi_basal[18]  {nseg=7 diam= .4  L= 140.8884  }
+csiosi_basal[19]  {nseg=4 diam= .4  L= 82.97742  }
+csiosi_basal[20] {nseg=2 diam= .4  L= 36.26253  }
+csiosi_basal[21] {nseg=5 diam= .4  L= 100.4919  }
+csiosi_basal[22] {nseg=3 diam= .4  L= 72.16766  }
+csiosi_basal[23] {nseg=1 diam= 1  L= 12.02422  }
+csiosi_basal[24] {nseg=1 diam= .8  L= 4.843154  }
+csiosi_basal[25] {nseg=1 diam= .8  L= 3.307597  }
+csiosi_basal[26] {nseg=1 diam= .4  L= 11.31487  }
+csiosi_basal[27] {nseg=1 diam= .4  L= 25.26186  }
+csiosi_basal[28] {nseg=1 diam= .4  L= 26.09189  }
+csiosi_basal[29] {nseg=3 diam= .4  L= 73.88529  }
+csiosi_basal[30] {nseg=3 diam= .4  L= 69.03699  }
+csiosi_basal[31] {nseg=4 diam= .4  L= 81.94038  }
+csiosi_basal[32] {nseg=7 diam= .4  L= 157.9888  }
+csiosi_basal[33]  {nseg=1 diam= .4  L= 12.65634  }
+csiosi_basal[34]  {nseg=2 diam= .4  L= 47.59445  }
+csiosi_basal[35]  {nseg=4 diam= .4  L= 87.35556  }
+csiosi_basal[36]  {nseg=5 diam= .4  L= 92.50491  }
+csiosi_basal[37]  {nseg=1 diam= .4  L= 21.87688  }
+csiosi_basal[38]  {nseg=4 diam= .4  L= 86.62627  }
+csiosi_basal[39]  {nseg=3 diam= .4  L= 74.35841  }
+csiosi_basal[40]  {nseg=4 diam= .4  L= 92.61662  }
+csiosi_basal[41] {nseg=1 diam= 1  L= 9.526773  }
+csiosi_basal[42] {nseg=1 diam= 1  L= 3.523762  }
+csiosi_basal[43] {nseg=1 diam= .8  L= 11.17033  }
+csiosi_basal[44] {nseg=1 diam= .4  L= 5.654395  }
+csiosi_basal[45] {nseg=1 diam= .4  L= 10.01039  }
+csiosi_basal[46] {nseg=1 diam= .4  L= 21.26989  }
+csiosi_basal[47] {nseg=2 diam= .4  L= 38.8982  }
+csiosi_basal[48] {nseg=6 diam= .4  L= 125.4449  }
+csiosi_basal[49] {nseg=7 diam= .4  L= 137.2615  }
+csiosi_basal[50] {nseg=3 diam= .4  L= 66.48241  }
+csiosi_basal[51]  {nseg=1 diam= 1  L= .5340415  }
+csiosi_basal[52]  {nseg=1 diam= 1  L= 7.411953  }
+csiosi_basal[53]  {nseg=4 diam= .4  L= 80.27492  }
+csiosi_basal[54]  {nseg=1 diam= .8  L= 11.25394  }
+csiosi_basal[55]  {nseg=1 diam= .4  L= 7.328401  }
+csiosi_basal[56]  {nseg=5 diam= .4  L= 100.9536  }
+csiosi_basal[57]  {nseg=2 diam= .4  L= 32.70675  }
+csiosi_basal[58]  {nseg=8 diam= .4  L= 165.4767  }
+csiosi_basal[59]  {nseg=8 diam= .4  L= 161.9148  }
+
+csiosi_soma[0]  {connect csiosi_soma[1]  (0), 1
+         connect csiosi_basal[0] (0),0
+	 connect csiosi_basal[20] (0),0
+	 connect csiosi_basal[23] (0),0
+	 connect csiosi_basal[41] (0),0}
+
+csiosi_soma[1]  connect csiosi_soma[2]  (0), 1
+csiosi_soma[2]  {connect csiosi_soma[3]  (0), 1
+         connect csiosi_axon[0](0),0.5}
+csiosi_axon[0]  connect csiosi_axon[1](0),1
+csiosi_soma[3]  connect csiosi_soma[4]  (0), 1
+csiosi_soma[4]  connect csiosi_soma[5]  (0), 1
+csiosi_soma[5]  connect csiosi_soma[6]  (0), 1
+csiosi_soma[6]  connect csiosi_soma[7]  (0), 1
+csiosi_soma[7]  connect csiosi_soma[8]  (0), 1
+csiosi_soma[8]  connect csiosi_soma[9]  (0), 1
+csiosi_soma[9]  connect csiosi_soma[10]  (0), 1
+csiosi_soma[10]  connect csiosi_soma[11]  (0), 1
+csiosi_soma[11]  connect csiosi_soma[12]  (0), 1
+
+csiosi_soma[12]  connect csiosi_apical[0]  (0), 1
+
+csiosi_apical[0]   connect csiosi_apical[ 1]  (0), 1
+csiosi_apical[1]   connect csiosi_apical[ 2]  (0), 1
+csiosi_apical[2]  {connect csiosi_apical[ 3]  (0), 1
+connect csiosi_apical[121]  (0), 1}
+csiosi_apical[3]   connect csiosi_apical[ 4]  (0), 1
+csiosi_apical[4]   connect csiosi_apical[ 5]  (0), 1
+csiosi_apical[5]  {connect csiosi_apical[ 6]  (0), 1
+connect csiosi_apical[113]  (0), 1}
+csiosi_apical[6]  {connect csiosi_apical[ 7]  (0), 1
+connect csiosi_apical[112]  (0), 1}
+csiosi_apical[7]  {connect csiosi_apical[ 8]  (0), 1
+connect csiosi_apical[106]  (0), 1}
+csiosi_apical[8]  {connect csiosi_apical[ 9]  (0), 1
+connect csiosi_apical[105]  (0), 1}
+csiosi_apical[9]  {connect csiosi_apical[ 10] (0), 1
+connect csiosi_apical[103]  (0), 1}
+csiosi_apical[10] {connect csiosi_apical[ 11] (0), 1
+connect csiosi_apical[102]  (0), 1}
+csiosi_apical[11] {connect csiosi_apical[ 12] (0), 1
+connect csiosi_apical[101]  (0), 1}
+csiosi_apical[12] {connect csiosi_apical[ 13] (0), 1
+connect csiosi_apical[90]   (0), 1}
+csiosi_apical[13] {connect csiosi_apical[ 14] (0), 1
+connect csiosi_apical[78]  (0), 1}
+csiosi_apical[14] {connect csiosi_apical[ 15] (0), 1
+connect csiosi_apical[76]  (0), 1}
+csiosi_apical[15] {connect csiosi_apical[ 16] (0), 1
+connect csiosi_apical[64]  (0), 1}
+csiosi_apical[16] {connect csiosi_apical[ 17] (0), 1
+connect csiosi_apical[26]  (0), 1}
+csiosi_apical[17]  connect csiosi_apical[ 18] (0), 1
+csiosi_apical[18] {connect csiosi_apical[ 19] (0), 1
+connect csiosi_apical[21]  (0), 1}
+csiosi_apical[19]  connect csiosi_apical[ 20] (0), 1
+csiosi_apical[21] {connect csiosi_apical[ 22] (0), 1
+connect csiosi_apical[23]  (0), 1}
+csiosi_apical[23] {connect csiosi_apical[ 24] (0), 1
+connect csiosi_apical[25]  (0), 1}
+csiosi_apical[26]  connect csiosi_apical[ 27] (0), 1
+csiosi_apical[27] {connect csiosi_apical[ 28] (0), 1
+connect csiosi_apical[39]  (0), 1}
+csiosi_apical[28]  connect csiosi_apical[ 29] (0), 1
+csiosi_apical[29]  connect csiosi_apical[ 30] (0), 1
+csiosi_apical[30] {connect csiosi_apical[ 31] (0), 1
+connect csiosi_apical[38]  (0), 1}
+csiosi_apical[31] {connect csiosi_apical[ 32] (0), 1
+connect csiosi_apical[35]  (0), 1}
+csiosi_apical[32] {connect csiosi_apical[ 33] (0), 1
+connect csiosi_apical[34]  (0), 1}
+csiosi_apical[35] {connect csiosi_apical[ 36] (0), 1
+connect csiosi_apical[37]  (0), 1}
+csiosi_apical[39] {connect csiosi_apical[ 40] (0), 1
+connect csiosi_apical[59]  (0), 1}
+csiosi_apical[40] {connect csiosi_apical[ 41] (0), 1
+connect csiosi_apical[50]  (0), 1}
+csiosi_apical[41] {connect csiosi_apical[ 42] (0), 1
+connect csiosi_apical[49]  (0), 1}
+csiosi_apical[42]  connect csiosi_apical[ 43] (0), 1
+csiosi_apical[43] {connect csiosi_apical[ 44] (0), 1
+connect csiosi_apical[48]  (0), 1}
+csiosi_apical[44] {connect csiosi_apical[ 45] (0), 1
+connect csiosi_apical[47]  (0), 1}
+csiosi_apical[45]  connect csiosi_apical[ 46] (0), 1
+csiosi_apical[50] {connect csiosi_apical[ 51] (0), 1
+connect csiosi_apical[52]  (0), 1}
+csiosi_apical[52] {connect csiosi_apical[ 53] (0), 1
+connect csiosi_apical[56]  (0), 1}
+csiosi_apical[53] {connect csiosi_apical[ 54] (0), 1
+connect csiosi_apical[55]  (0), 1}
+csiosi_apical[56] {connect csiosi_apical[ 57] (0), 1
+connect csiosi_apical[58]  (0), 1}
+csiosi_apical[59] {connect csiosi_apical[ 60] (0), 1
+connect csiosi_apical[61]  (0), 1}
+csiosi_apical[61] {connect csiosi_apical[ 62] (0), 1
+connect csiosi_apical[63]  (0), 1}
+csiosi_apical[64] {connect csiosi_apical[ 65] (0), 1
+connect csiosi_apical[72]  (0), 1}
+csiosi_apical[65] {connect csiosi_apical[ 66] (0), 1
+connect csiosi_apical[71]  (0), 1}
+csiosi_apical[66] {connect csiosi_apical[ 67] (0), 1
+connect csiosi_apical[70]  (0), 1}
+csiosi_apical[67] {connect csiosi_apical[ 68] (0), 1
+connect csiosi_apical[69]  (0), 1}
+csiosi_apical[72]  connect csiosi_apical[ 73] (0), 1
+csiosi_apical[73] {connect csiosi_apical[ 74] (0), 1
+connect csiosi_apical[75]  (0), 1}
+csiosi_apical[76]  connect csiosi_apical[ 77] (0), 1
+csiosi_apical[78] {connect csiosi_apical[ 79] (0), 1
+connect csiosi_apical[80]  (0), 1}
+csiosi_apical[80] {connect csiosi_apical[ 81] (0), 1
+connect csiosi_apical[89]   (0), 1}
+csiosi_apical[81] {connect csiosi_apical[ 82] (0), 1
+connect csiosi_apical[88]   (0), 1}
+csiosi_apical[82] {connect csiosi_apical[ 83] (0), 1
+connect csiosi_apical[87]   (0), 1}
+csiosi_apical[83] {connect csiosi_apical[ 84] (0), 1
+connect csiosi_apical[85]  (0), 1}
+csiosi_apical[85]  connect csiosi_apical[ 86] (0), 1
+csiosi_apical[90]  {connect csiosi_apical[ 91]  (0), 1
+connect csiosi_apical[100]  (0), 1}
+csiosi_apical[91]  {connect csiosi_apical[ 92]  (0), 1
+connect csiosi_apical[97]   (0), 1}
+csiosi_apical[92]  {connect csiosi_apical[ 93]  (0), 1
+connect csiosi_apical[96]   (0), 1}
+csiosi_apical[93]  {connect csiosi_apical[ 94]  (0), 1
+connect csiosi_apical[95]   (0), 1}
+csiosi_apical[97]  {connect csiosi_apical[ 98]  (0), 1
+connect csiosi_apical[99]   (0), 1}
+csiosi_apical[103]  connect csiosi_apical[ 104] (0), 1
+csiosi_apical[106] {connect csiosi_apical[ 107] (0), 1
+connect csiosi_apical[109]  (0), 1}
+csiosi_apical[107]  connect csiosi_apical[ 108] (0), 1
+csiosi_apical[109] {connect csiosi_apical[ 110] (0), 1
+connect csiosi_apical[111]  (0), 1}
+csiosi_apical[113] {connect csiosi_apical[ 114] (0), 1
+connect csiosi_apical[120]  (0), 1}
+csiosi_apical[114]  connect csiosi_apical[ 115] (0), 1
+csiosi_apical[115] {connect csiosi_apical[ 116] (0), 1
+connect csiosi_apical[119]  (0), 1}
+csiosi_apical[116]  connect csiosi_apical[ 117] (0), 1
+csiosi_apical[117]  connect csiosi_apical[ 118] (0), 1
+csiosi_apical[121]  connect csiosi_apical[ 122] (0), 1
+csiosi_apical[122] {connect csiosi_apical[ 123] (0), 1
+connect csiosi_apical[126]  (0), 1}
+csiosi_apical[123] {connect csiosi_apical[ 124] (0), 1
+connect csiosi_apical[125]  (0), 1}
+csiosi_basal[0] {connect csiosi_basal[1]  (0), 1
+connect csiosi_basal[12]  (0), 1}
+csiosi_basal[1] {connect csiosi_basal[2]  (0), 1
+connect csiosi_basal[9]  (0), 1}
+csiosi_basal[2] {connect csiosi_basal[3]  (0), 1
+connect csiosi_basal[8]  (0), 1}
+csiosi_basal[3] {connect csiosi_basal[4]  (0), 1
+connect csiosi_basal[5]  (0), 1}
+csiosi_basal[5] {connect csiosi_basal[6]  (0), 1
+connect csiosi_basal[7]  (0), 1}
+csiosi_basal[9] {connect csiosi_basal[10]  (0), 1
+connect csiosi_basal[11]  (0), 1}
+csiosi_basal[12] {connect csiosi_basal[13]  (0), 1
+connect csiosi_basal[19]  (0), 1}
+csiosi_basal[13]  connect csiosi_basal[14]  (0), 1
+csiosi_basal[14] {connect csiosi_basal[15]  (0), 1
+connect csiosi_basal[18]  (0), 1}
+csiosi_basal[15] {connect csiosi_basal[16]  (0), 1
+connect csiosi_basal[17]  (0), 1}
+csiosi_basal[20] {connect csiosi_basal[ 21] (0), 1
+connect csiosi_basal[22] (0), 1}
+csiosi_basal[23] {connect csiosi_basal[ 24] (0), 1
+connect csiosi_basal[38]  (0), 1}
+csiosi_basal[24] {connect csiosi_basal[ 25] (0), 1
+connect csiosi_basal[33]  (0), 1}
+csiosi_basal[25] connect csiosi_basal[ 26] (0), 1
+csiosi_basal[26] {connect csiosi_basal[ 27] (0), 1
+connect csiosi_basal[32] (0), 1}
+csiosi_basal[27] {connect csiosi_basal[ 28] (0), 1
+connect csiosi_basal[31] (0), 1}
+csiosi_basal[28] {connect csiosi_basal[ 29] (0), 1
+connect csiosi_basal[30] (0), 1}
+csiosi_basal[33] {connect csiosi_basal[ 34] (0), 1
+connect csiosi_basal[37]  (0), 1}
+csiosi_basal[34] {connect csiosi_basal[ 35] (0), 1
+connect csiosi_basal[36]  (0), 1}
+csiosi_basal[38] {connect csiosi_basal[ 39] (0), 1
+connect csiosi_basal[40]  (0), 1}
+csiosi_basal[41] {connect csiosi_basal[ 42] (0), 1
+connect csiosi_basal[59]  (0), 1}
+csiosi_basal[42] {connect csiosi_basal[ 43] (0), 1
+connect csiosi_basal[51]  (0), 1}
+csiosi_basal[43] connect csiosi_basal[ 44] (0), 1
+csiosi_basal[44] {connect csiosi_basal[ 45] (0), 1
+connect csiosi_basal[50] (0), 1}
+csiosi_basal[45] {connect csiosi_basal[ 46] (0), 1
+connect csiosi_basal[49] (0), 1}
+csiosi_basal[46] {connect csiosi_basal[ 47] (0), 1
+connect csiosi_basal[48] (0), 1}
+csiosi_basal[51] {connect csiosi_basal[ 52] (0), 1
+connect csiosi_basal[54]  (0), 1}
+csiosi_basal[52]  connect csiosi_basal[ 53] (0), 1
+csiosi_basal[54] {connect csiosi_basal[ 55] (0), 1
+connect csiosi_basal[58]  (0), 1}
+csiosi_basal[55] {connect csiosi_basal[ 56] (0), 1
+connect csiosi_basal[57]  (0), 1}
+

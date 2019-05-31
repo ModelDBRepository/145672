@@ -1,0 +1,11 @@
+//Recreates figure 11E
+
+load_file("nrngui.hoc")
+load_file("csi.hoc")			//CSI Cell			
+load_file("csiosi.hoc")			//CSI+OSI Cell
+load_file("graphvoltage.ses")		//Voltage Graph
+load_file("graphavailability.ses")	//Availability Graph
+load_file("iclamp250.ses")		//iclamp 250 pA for both cells
+xpanel("")				//run button
+xbutton("Run Figure11E", "run()")
+xpanel()

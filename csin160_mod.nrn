@@ -1,0 +1,416 @@
+//modified n160_mod.nrn with segments called "csi_soma", "csi_axon", "csi_apical", "csi_basal"
+/* csi_apical[117] diam changed from 1 to 0.4 */
+/* added csi_axon */
+/* lambda checked */
+{Numsoma=13 Numapical=127 Numbasal=60 Numaxon=2}
+create csi_soma[Numsoma], csi_apical[Numapical], csi_basal[Numbasal], csi_axon[Numaxon]
+
+csi_axon[0]  {nseg=5 diam=1 L=50}
+csi_axon[1]  {nseg=10 diam=0.7 L=250}
+csi_soma[0]  {nseg=1 diam= 3.4  L= .5  }
+csi_soma[1]  {nseg=1 diam= 3.4  L= .1  }
+csi_soma[2]  {nseg=1 diam= 5.8  L= .5852348  }
+csi_soma[3]  {nseg=1 diam= 7.4  L= 2.362393  }
+csi_soma[4]  {nseg=1 diam= 8.4  L= 1.030922  }
+csi_soma[5]  {nseg=1 diam= 9  L= 5.08973  }
+csi_soma[6]  {nseg=1 diam= 8.4  L= 2.161421  }
+csi_soma[7]  {nseg=1 diam= 7.4  L= 1.391761  }
+csi_soma[8]  {nseg=1 diam= 7  L= .7244999  }
+csi_soma[9]  {nseg=1 diam= 6.8  L= 1.021421  }
+csi_soma[10]  {nseg=1 diam= 5.8  L= .8354636  }
+csi_soma[11]  {nseg=1 diam= 4.8  L= .6500001  }
+csi_soma[12]  {nseg=1 diam= 4.2  L= 1.947434  }
+
+csi_apical[0]   {nseg=1 diam= 3.8  L= 2.715308  }
+csi_apical[1]   {nseg=1 diam= 3.6  L= 5.401713  }
+csi_apical[2]   {nseg=1 diam= 3  L= 3.876953  }
+csi_apical[3]   {nseg=1 diam= 3  L= 4.32302  }
+csi_apical[4]   {nseg=1 diam= 2.2  L= 9.503437  }
+csi_apical[5]   {nseg=2 diam= 2  L= 45.0123  }
+csi_apical[6]   {nseg=1 diam= 2  L= 31.20716  }
+csi_apical[7]   {nseg=1 diam= 2  L= 22.61171  }
+csi_apical[8]   {nseg=2 diam= 2  L= 37.90814  }
+csi_apical[9]   {nseg=1 diam= 2  L= 1.899714  }
+csi_apical[10]  {nseg=1 diam= 2  L= 2.305321  }
+csi_apical[11]  {nseg=1 diam= 2  L= 3.767573  }
+csi_apical[12]  {nseg=2 diam= 2  L= 33.49711  }
+csi_apical[13]  {nseg=3 diam= 2  L= 70.09814  }
+csi_apical[14]  {nseg=2 diam= 2  L= 40.81264  }
+csi_apical[15]  {nseg=1 diam= 2  L= 15.2801  }
+csi_apical[16]  {nseg=1 diam= 2  L= 17.47857  }
+csi_apical[17]  {nseg=8 diam= 1  L= 108.7753  }
+csi_apical[18]  {nseg=1 diam= .8  L= 10.96036  }
+csi_apical[19]  {nseg=2 diam= .8  L= 16.21915  }
+csi_apical[20]  {nseg=2 diam= .4  L= 26.14653  }
+csi_apical[21]  {nseg=6 diam= .4  L= 119.6609  }
+csi_apical[22]  {nseg=3 diam= .4  L= 39.18561  }
+csi_apical[23]  {nseg=3 diam= .4  L= 34.66425  }
+csi_apical[24]  {nseg=2 diam= .4  L= 31.36501  }
+csi_apical[25]  {nseg=2 diam= .4  L= 29.33217  }
+csi_apical[26]  {nseg=2 diam= 2  L= 31.1963  }
+csi_apical[27]  {nseg=4 diam= 1.4  L= 40.56636  }
+csi_apical[28]  {nseg=1 diam= 1.4  L= 4.73629  }
+csi_apical[29]  {nseg=5 diam= .8  L= 57.43425  }
+csi_apical[30]  {nseg=1 diam= .4  L= 21.68407  }
+csi_apical[31]  {nseg=1 diam= .4  L= 20.0452  }
+csi_apical[32]  {nseg=3 diam= .4  L= 64.84853  }
+csi_apical[33]  {nseg=3 diam= .4  L= 58.52066  }
+csi_apical[34]  {nseg=10 diam= .4  L= 230.365  }
+csi_apical[35]  {nseg=2 diam= .4  L= 37.58863  }
+csi_apical[36]  {nseg=4 diam= .4  L= 77.22144  }
+csi_apical[37]  {nseg=5 diam= .4  L= 112.0059  }
+csi_apical[38]  {nseg=2 diam= .4  L= 37.58242  }
+csi_apical[39]  {nseg=8 diam= .8  L= 89.90406  }
+csi_apical[40]  {nseg=1 diam= .8  L= 5.726318  }
+csi_apical[41]  {nseg=1 diam= .8  L= 1.514942  }
+csi_apical[42]  {nseg=2 diam= .8  L= 23.88437  }
+csi_apical[43]  {nseg=1 diam= .4  L= 3.340797  }
+csi_apical[44]  {nseg=1 diam= .4  L= 3.250262  }
+csi_apical[45]  {nseg=4 diam= .4  L= 86.1567  }
+csi_apical[46]  {nseg=3 diam= .4  L= 46.10009  }
+csi_apical[47]  {nseg=1 diam= .4  L= 23.62396  }
+csi_apical[48]  {nseg=4 diam= .4  L= 78.09839  }
+csi_apical[49]  {nseg=2 diam= .4  L= 41.05293  }
+csi_apical[50]  {nseg=3 diam= .4  L= 64.45201  }
+csi_apical[51]  {nseg=6 diam= .4  L= 135.1048  }
+csi_apical[52]  {nseg=4 diam= .4  L= 70.09399  }
+csi_apical[53]  {nseg=1 diam= .4  L= 11.29383  }
+csi_apical[54]  {nseg=3 diam= .4  L= 57.12379  }
+csi_apical[55]  {nseg=3 diam= .4  L= 51.23798  }
+csi_apical[56]  {nseg=1 diam= .4  L= .226719  }
+csi_apical[57]  {nseg=2 diam= .4  L= 42.9783  }
+csi_apical[58]  {nseg=6 diam= .4  L= 130.2097  }
+csi_apical[59]  {nseg=2 diam= .4  L= 26.79343  }
+csi_apical[60]  {nseg=5 diam= .4  L= 125.4406  }
+csi_apical[61]  {nseg=2 diam= .4  L= 32.70949  }
+csi_apical[62]  {nseg=2 diam= .4  L= 46.61235  }
+csi_apical[63]  {nseg=3 diam= .4  L= 55.72121  }
+csi_apical[64]  {nseg=5 diam= .4  L= 116.3788  }
+csi_apical[65]  {nseg=1 diam= .4  L= 13.57025  }
+csi_apical[66]  {nseg=6 diam= .4  L= 118.638  }
+csi_apical[67]  {nseg=1 diam= .4  L= 24.19888  }
+csi_apical[68]  {nseg=4 diam= .4  L= 96.23538  }
+csi_apical[69]  {nseg=3 diam= .4  L= 59.93812  }
+csi_apical[70]  {nseg=2 diam= .4  L= 64.90414  }
+csi_apical[71]  {nseg=1 diam= .4  L= .365519  }
+csi_apical[72]  {nseg=5 diam= .4  L= 118.724  }
+csi_apical[73]  {nseg=1 diam= .4  L= 5.153612  }
+csi_apical[74]  {nseg=7 diam= .4  L= 159.0847  }
+csi_apical[75]  {nseg=3 diam= .4  L= 65.16338  }
+csi_apical[76]  {nseg=3 diam= .8  L= 32.91693  }
+csi_apical[77]  {nseg=4 diam= .4  L= 84.05488  }
+csi_apical[78]  {nseg=3 diam= .8  L= 49.03632  }
+csi_apical[79]  {nseg=3 diam= .4  L= 65.3413  }
+csi_apical[80]  {nseg=7 diam= .4  L= 144.8597  }
+csi_apical[81]  {nseg=1 diam= .4  L= 2.782626  }
+csi_apical[82]  {nseg=1 diam= .4  L= 10.63182  }
+csi_apical[83]  {nseg=1 diam= .4  L= 14.79619  }
+csi_apical[84]  {nseg=1 diam= .4  L= 24.52155  }
+csi_apical[85]  {nseg=1 diam= .4  L= 19.95786  }
+csi_apical[86]  {nseg=1 diam= .4  L= 22.937  }
+csi_apical[87]   {nseg=1 diam= .4  L= 29.18237  }
+csi_apical[88]   {nseg=4 diam= .4  L= 93.45203  }
+csi_apical[89]   {nseg=3 diam= .4  L= 82.16525  }
+csi_apical[90]   {nseg=2 diam= 1  L= 28.88242  }
+csi_apical[91]   {nseg=1 diam= 1  L= 3.312038  }
+csi_apical[92]   {nseg=2 diam= 1  L= 31.43214  }
+csi_apical[93]   {nseg=4 diam= 1  L= 65.21848  }
+csi_apical[94]   {nseg=4 diam= 1  L= 65.93275  }
+csi_apical[95]   {nseg=1 diam= .4  L= 2.210091  }
+csi_apical[96]   {nseg=4 diam= .4  L= 80.05907  }
+csi_apical[97]   {nseg=1 diam= .4  L= 12.09364  }
+csi_apical[98]   {nseg=2 diam= .4  L= 40.26765  }
+csi_apical[99]   {nseg=2 diam= .4  L= 51.40726  }
+csi_apical[100]  {nseg=5 diam= .4  L= 113.2667  }
+csi_apical[101]  {nseg=6 diam= .4  L= 149.6538  }
+csi_apical[102]  {nseg=12 diam= .4  L= 271.828  }
+csi_apical[103]  {nseg=1 diam= .8  L= 19.2613  }
+csi_apical[104]  {nseg=5 diam= .4  L= 94.12336  }
+csi_apical[105]  {nseg=8 diam= .4  L= 170.9137  }
+csi_apical[106]  {nseg=1 diam= .8  L= 5.102267  }
+csi_apical[107]  {nseg=1 diam= .8  L= 10.26147  }
+csi_apical[108]  {nseg=6 diam= .4  L= 117.1293  }
+csi_apical[109]  {nseg=2 diam= .8  L= 30.43381  }
+csi_apical[110]  {nseg=4 diam= .4  L= 80.42423  }
+csi_apical[111]  {nseg=10 diam= .4  L= 202.9251  }
+csi_apical[112]  {nseg=7 diam= .4  L= 155.1176  }
+csi_apical[113]  {nseg=1 diam= 1.4  L= 11.20985  }
+csi_apical[114]  {nseg=1 diam= 1.4  L= 8.052182  }
+csi_apical[115]  {nseg=1 diam= .4  L= 17.14739  }
+csi_apical[116]  {nseg=1 diam= .4  L= 17.07239  }
+csi_apical[117]  {nseg=1 diam= .4  L= 3.802383  }
+csi_apical[118]  {nseg=4 diam= .4  L= 79.13516  }
+csi_apical[119]  {nseg=7 diam= .4  L= 132.4294  }
+csi_apical[120]  {nseg=1 diam= .8  L= 7.493482  }
+csi_apical[121]  {nseg=1 diam= .8  L= 16.02206  }
+csi_apical[122]  {nseg=1 diam= .4  L= 2.194287  }
+csi_apical[123]  {nseg=1 diam= .4  L= 14.77226  }
+csi_apical[124]  {nseg=4 diam= .4  L= 85.29885  }
+csi_apical[125]  {nseg=5 diam= .4  L= 108.0732  }
+csi_apical[126]  {nseg=4 diam= .4  L= 89.57475  }
+csi_basal[0]  {nseg=1 diam= .8  L= 2.888482  }
+csi_basal[1]  {nseg=1 diam= .8  L= 12.67608  }
+csi_basal[2]  {nseg=1 diam= .4  L= 6.226819  }
+csi_basal[3]  {nseg=2 diam= .4  L= 28.07395  }
+csi_basal[4]  {nseg=1 diam= .4  L= 19.26636  }
+csi_basal[5]  {nseg=1 diam= .4  L= 13.94479  }
+csi_basal[6]  {nseg=5 diam= .4  L= 110.2079  }
+csi_basal[7]  {nseg=4 diam= .4  L= 75.98547  }
+csi_basal[8]  {nseg=8 diam= .4  L= 153.798  }
+csi_basal[9]  {nseg=4 diam= .4  L= 91.32814  }
+csi_basal[10]  {nseg=3 diam= .4  L= 72.40762  }
+csi_basal[11]  {nseg=3 diam= .4  L= 68.55269  }
+csi_basal[12]  {nseg=1 diam= .8  L= 16.80424  }
+csi_basal[13]  {nseg=1 diam= .8  L= 14.56381  }
+csi_basal[14]  {nseg=1 diam= .4  L= .4899998  }
+csi_basal[15]  {nseg=1 diam= .4  L= 5.744193  }
+csi_basal[16]  {nseg=4 diam= .4  L= 116.2063  }
+csi_basal[17]  {nseg=3 diam= .4  L= 60.7986  }
+csi_basal[18]  {nseg=7 diam= .4  L= 140.8884  }
+csi_basal[19]  {nseg=4 diam= .4  L= 82.97742  }
+csi_basal[20] {nseg=2 diam= .4  L= 36.26253  }
+csi_basal[21] {nseg=5 diam= .4  L= 100.4919  }
+csi_basal[22] {nseg=3 diam= .4  L= 72.16766  }
+csi_basal[23] {nseg=1 diam= 1  L= 12.02422  }
+csi_basal[24] {nseg=1 diam= .8  L= 4.843154  }
+csi_basal[25] {nseg=1 diam= .8  L= 3.307597  }
+csi_basal[26] {nseg=1 diam= .4  L= 11.31487  }
+csi_basal[27] {nseg=1 diam= .4  L= 25.26186  }
+csi_basal[28] {nseg=1 diam= .4  L= 26.09189  }
+csi_basal[29] {nseg=3 diam= .4  L= 73.88529  }
+csi_basal[30] {nseg=3 diam= .4  L= 69.03699  }
+csi_basal[31] {nseg=4 diam= .4  L= 81.94038  }
+csi_basal[32] {nseg=7 diam= .4  L= 157.9888  }
+csi_basal[33]  {nseg=1 diam= .4  L= 12.65634  }
+csi_basal[34]  {nseg=2 diam= .4  L= 47.59445  }
+csi_basal[35]  {nseg=4 diam= .4  L= 87.35556  }
+csi_basal[36]  {nseg=5 diam= .4  L= 92.50491  }
+csi_basal[37]  {nseg=1 diam= .4  L= 21.87688  }
+csi_basal[38]  {nseg=4 diam= .4  L= 86.62627  }
+csi_basal[39]  {nseg=3 diam= .4  L= 74.35841  }
+csi_basal[40]  {nseg=4 diam= .4  L= 92.61662  }
+csi_basal[41] {nseg=1 diam= 1  L= 9.526773  }
+csi_basal[42] {nseg=1 diam= 1  L= 3.523762  }
+csi_basal[43] {nseg=1 diam= .8  L= 11.17033  }
+csi_basal[44] {nseg=1 diam= .4  L= 5.654395  }
+csi_basal[45] {nseg=1 diam= .4  L= 10.01039  }
+csi_basal[46] {nseg=1 diam= .4  L= 21.26989  }
+csi_basal[47] {nseg=2 diam= .4  L= 38.8982  }
+csi_basal[48] {nseg=6 diam= .4  L= 125.4449  }
+csi_basal[49] {nseg=7 diam= .4  L= 137.2615  }
+csi_basal[50] {nseg=3 diam= .4  L= 66.48241  }
+csi_basal[51]  {nseg=1 diam= 1  L= .5340415  }
+csi_basal[52]  {nseg=1 diam= 1  L= 7.411953  }
+csi_basal[53]  {nseg=4 diam= .4  L= 80.27492  }
+csi_basal[54]  {nseg=1 diam= .8  L= 11.25394  }
+csi_basal[55]  {nseg=1 diam= .4  L= 7.328401  }
+csi_basal[56]  {nseg=5 diam= .4  L= 100.9536  }
+csi_basal[57]  {nseg=2 diam= .4  L= 32.70675  }
+csi_basal[58]  {nseg=8 diam= .4  L= 165.4767  }
+csi_basal[59]  {nseg=8 diam= .4  L= 161.9148  }
+
+csi_soma[0]  {connect csi_soma[1]  (0), 1
+         connect csi_basal[0] (0),0
+	 connect csi_basal[20] (0),0
+	 connect csi_basal[23] (0),0
+	 connect csi_basal[41] (0),0}
+
+csi_soma[1]  connect csi_soma[2]  (0), 1
+csi_soma[2]  {connect csi_soma[3]  (0), 1
+         connect csi_axon[0](0),0.5}
+csi_axon[0]  connect csi_axon[1](0),1
+csi_soma[3]  connect csi_soma[4]  (0), 1
+csi_soma[4]  connect csi_soma[5]  (0), 1
+csi_soma[5]  connect csi_soma[6]  (0), 1
+csi_soma[6]  connect csi_soma[7]  (0), 1
+csi_soma[7]  connect csi_soma[8]  (0), 1
+csi_soma[8]  connect csi_soma[9]  (0), 1
+csi_soma[9]  connect csi_soma[10]  (0), 1
+csi_soma[10]  connect csi_soma[11]  (0), 1
+csi_soma[11]  connect csi_soma[12]  (0), 1
+
+csi_soma[12]  connect csi_apical[0]  (0), 1
+
+csi_apical[0]   connect csi_apical[ 1]  (0), 1
+csi_apical[1]   connect csi_apical[ 2]  (0), 1
+csi_apical[2]  {connect csi_apical[ 3]  (0), 1
+connect csi_apical[121]  (0), 1}
+csi_apical[3]   connect csi_apical[ 4]  (0), 1
+csi_apical[4]   connect csi_apical[ 5]  (0), 1
+csi_apical[5]  {connect csi_apical[ 6]  (0), 1
+connect csi_apical[113]  (0), 1}
+csi_apical[6]  {connect csi_apical[ 7]  (0), 1
+connect csi_apical[112]  (0), 1}
+csi_apical[7]  {connect csi_apical[ 8]  (0), 1
+connect csi_apical[106]  (0), 1}
+csi_apical[8]  {connect csi_apical[ 9]  (0), 1
+connect csi_apical[105]  (0), 1}
+csi_apical[9]  {connect csi_apical[ 10] (0), 1
+connect csi_apical[103]  (0), 1}
+csi_apical[10] {connect csi_apical[ 11] (0), 1
+connect csi_apical[102]  (0), 1}
+csi_apical[11] {connect csi_apical[ 12] (0), 1
+connect csi_apical[101]  (0), 1}
+csi_apical[12] {connect csi_apical[ 13] (0), 1
+connect csi_apical[90]   (0), 1}
+csi_apical[13] {connect csi_apical[ 14] (0), 1
+connect csi_apical[78]  (0), 1}
+csi_apical[14] {connect csi_apical[ 15] (0), 1
+connect csi_apical[76]  (0), 1}
+csi_apical[15] {connect csi_apical[ 16] (0), 1
+connect csi_apical[64]  (0), 1}
+csi_apical[16] {connect csi_apical[ 17] (0), 1
+connect csi_apical[26]  (0), 1}
+csi_apical[17]  connect csi_apical[ 18] (0), 1
+csi_apical[18] {connect csi_apical[ 19] (0), 1
+connect csi_apical[21]  (0), 1}
+csi_apical[19]  connect csi_apical[ 20] (0), 1
+csi_apical[21] {connect csi_apical[ 22] (0), 1
+connect csi_apical[23]  (0), 1}
+csi_apical[23] {connect csi_apical[ 24] (0), 1
+connect csi_apical[25]  (0), 1}
+csi_apical[26]  connect csi_apical[ 27] (0), 1
+csi_apical[27] {connect csi_apical[ 28] (0), 1
+connect csi_apical[39]  (0), 1}
+csi_apical[28]  connect csi_apical[ 29] (0), 1
+csi_apical[29]  connect csi_apical[ 30] (0), 1
+csi_apical[30] {connect csi_apical[ 31] (0), 1
+connect csi_apical[38]  (0), 1}
+csi_apical[31] {connect csi_apical[ 32] (0), 1
+connect csi_apical[35]  (0), 1}
+csi_apical[32] {connect csi_apical[ 33] (0), 1
+connect csi_apical[34]  (0), 1}
+csi_apical[35] {connect csi_apical[ 36] (0), 1
+connect csi_apical[37]  (0), 1}
+csi_apical[39] {connect csi_apical[ 40] (0), 1
+connect csi_apical[59]  (0), 1}
+csi_apical[40] {connect csi_apical[ 41] (0), 1
+connect csi_apical[50]  (0), 1}
+csi_apical[41] {connect csi_apical[ 42] (0), 1
+connect csi_apical[49]  (0), 1}
+csi_apical[42]  connect csi_apical[ 43] (0), 1
+csi_apical[43] {connect csi_apical[ 44] (0), 1
+connect csi_apical[48]  (0), 1}
+csi_apical[44] {connect csi_apical[ 45] (0), 1
+connect csi_apical[47]  (0), 1}
+csi_apical[45]  connect csi_apical[ 46] (0), 1
+csi_apical[50] {connect csi_apical[ 51] (0), 1
+connect csi_apical[52]  (0), 1}
+csi_apical[52] {connect csi_apical[ 53] (0), 1
+connect csi_apical[56]  (0), 1}
+csi_apical[53] {connect csi_apical[ 54] (0), 1
+connect csi_apical[55]  (0), 1}
+csi_apical[56] {connect csi_apical[ 57] (0), 1
+connect csi_apical[58]  (0), 1}
+csi_apical[59] {connect csi_apical[ 60] (0), 1
+connect csi_apical[61]  (0), 1}
+csi_apical[61] {connect csi_apical[ 62] (0), 1
+connect csi_apical[63]  (0), 1}
+csi_apical[64] {connect csi_apical[ 65] (0), 1
+connect csi_apical[72]  (0), 1}
+csi_apical[65] {connect csi_apical[ 66] (0), 1
+connect csi_apical[71]  (0), 1}
+csi_apical[66] {connect csi_apical[ 67] (0), 1
+connect csi_apical[70]  (0), 1}
+csi_apical[67] {connect csi_apical[ 68] (0), 1
+connect csi_apical[69]  (0), 1}
+csi_apical[72]  connect csi_apical[ 73] (0), 1
+csi_apical[73] {connect csi_apical[ 74] (0), 1
+connect csi_apical[75]  (0), 1}
+csi_apical[76]  connect csi_apical[ 77] (0), 1
+csi_apical[78] {connect csi_apical[ 79] (0), 1
+connect csi_apical[80]  (0), 1}
+csi_apical[80] {connect csi_apical[ 81] (0), 1
+connect csi_apical[89]   (0), 1}
+csi_apical[81] {connect csi_apical[ 82] (0), 1
+connect csi_apical[88]   (0), 1}
+csi_apical[82] {connect csi_apical[ 83] (0), 1
+connect csi_apical[87]   (0), 1}
+csi_apical[83] {connect csi_apical[ 84] (0), 1
+connect csi_apical[85]  (0), 1}
+csi_apical[85]  connect csi_apical[ 86] (0), 1
+csi_apical[90]  {connect csi_apical[ 91]  (0), 1
+connect csi_apical[100]  (0), 1}
+csi_apical[91]  {connect csi_apical[ 92]  (0), 1
+connect csi_apical[97]   (0), 1}
+csi_apical[92]  {connect csi_apical[ 93]  (0), 1
+connect csi_apical[96]   (0), 1}
+csi_apical[93]  {connect csi_apical[ 94]  (0), 1
+connect csi_apical[95]   (0), 1}
+csi_apical[97]  {connect csi_apical[ 98]  (0), 1
+connect csi_apical[99]   (0), 1}
+csi_apical[103]  connect csi_apical[ 104] (0), 1
+csi_apical[106] {connect csi_apical[ 107] (0), 1
+connect csi_apical[109]  (0), 1}
+csi_apical[107]  connect csi_apical[ 108] (0), 1
+csi_apical[109] {connect csi_apical[ 110] (0), 1
+connect csi_apical[111]  (0), 1}
+csi_apical[113] {connect csi_apical[ 114] (0), 1
+connect csi_apical[120]  (0), 1}
+csi_apical[114]  connect csi_apical[ 115] (0), 1
+csi_apical[115] {connect csi_apical[ 116] (0), 1
+connect csi_apical[119]  (0), 1}
+csi_apical[116]  connect csi_apical[ 117] (0), 1
+csi_apical[117]  connect csi_apical[ 118] (0), 1
+csi_apical[121]  connect csi_apical[ 122] (0), 1
+csi_apical[122] {connect csi_apical[ 123] (0), 1
+connect csi_apical[126]  (0), 1}
+csi_apical[123] {connect csi_apical[ 124] (0), 1
+connect csi_apical[125]  (0), 1}
+csi_basal[0] {connect csi_basal[1]  (0), 1
+connect csi_basal[12]  (0), 1}
+csi_basal[1] {connect csi_basal[2]  (0), 1
+connect csi_basal[9]  (0), 1}
+csi_basal[2] {connect csi_basal[3]  (0), 1
+connect csi_basal[8]  (0), 1}
+csi_basal[3] {connect csi_basal[4]  (0), 1
+connect csi_basal[5]  (0), 1}
+csi_basal[5] {connect csi_basal[6]  (0), 1
+connect csi_basal[7]  (0), 1}
+csi_basal[9] {connect csi_basal[10]  (0), 1
+connect csi_basal[11]  (0), 1}
+csi_basal[12] {connect csi_basal[13]  (0), 1
+connect csi_basal[19]  (0), 1}
+csi_basal[13]  connect csi_basal[14]  (0), 1
+csi_basal[14] {connect csi_basal[15]  (0), 1
+connect csi_basal[18]  (0), 1}
+csi_basal[15] {connect csi_basal[16]  (0), 1
+connect csi_basal[17]  (0), 1}
+csi_basal[20] {connect csi_basal[ 21] (0), 1
+connect csi_basal[22] (0), 1}
+csi_basal[23] {connect csi_basal[ 24] (0), 1
+connect csi_basal[38]  (0), 1}
+csi_basal[24] {connect csi_basal[ 25] (0), 1
+connect csi_basal[33]  (0), 1}
+csi_basal[25] connect csi_basal[ 26] (0), 1
+csi_basal[26] {connect csi_basal[ 27] (0), 1
+connect csi_basal[32] (0), 1}
+csi_basal[27] {connect csi_basal[ 28] (0), 1
+connect csi_basal[31] (0), 1}
+csi_basal[28] {connect csi_basal[ 29] (0), 1
+connect csi_basal[30] (0), 1}
+csi_basal[33] {connect csi_basal[ 34] (0), 1
+connect csi_basal[37]  (0), 1}
+csi_basal[34] {connect csi_basal[ 35] (0), 1
+connect csi_basal[36]  (0), 1}
+csi_basal[38] {connect csi_basal[ 39] (0), 1
+connect csi_basal[40]  (0), 1}
+csi_basal[41] {connect csi_basal[ 42] (0), 1
+connect csi_basal[59]  (0), 1}
+csi_basal[42] {connect csi_basal[ 43] (0), 1
+connect csi_basal[51]  (0), 1}
+csi_basal[43] connect csi_basal[ 44] (0), 1
+csi_basal[44] {connect csi_basal[ 45] (0), 1
+connect csi_basal[50] (0), 1}
+csi_basal[45] {connect csi_basal[ 46] (0), 1
+connect csi_basal[49] (0), 1}
+csi_basal[46] {connect csi_basal[ 47] (0), 1
+connect csi_basal[48] (0), 1}
+csi_basal[51] {connect csi_basal[ 52] (0), 1
+connect csi_basal[54]  (0), 1}
+csi_basal[52]  connect csi_basal[ 53] (0), 1
+csi_basal[54] {connect csi_basal[ 55] (0), 1
+connect csi_basal[58]  (0), 1}
+csi_basal[55] {connect csi_basal[ 56] (0), 1
+connect csi_basal[57]  (0), 1}
+

@@ -1,0 +1,24 @@
+//Session that creates plots of Voltage from CSI cell and CSI+OSI Cell
+//Only will plot csiosi when using CSIOSI.hoc file as csiosi is connected to csiosi_soma
+
+objectvar save_window_, rvp_
+objectvar scene_vector_[6]
+objectvar ocbox_, ocbox_list_, scene_, scene_list_
+{ocbox_list_ = new List()  scene_list_ = new List()}
+{
+save_window_ = new Graph(0)
+save_window_.size(0,200,-80,40)
+scene_vector_[2] = save_window_
+{save_window_.view(0, -80, 200, 120, 499, 0, 733.5, 401.5)}
+graphList[0].append(save_window_)
+save_window_.save_name("graphList[0].")
+save_window_.addexpr("v(.5)", 1, 3, 1.01455, 0.762901, 2)
+save_window_.label(0.853268, 0.906363, "Kv4 CSI", 2, 1, 0, 0, 1)
+save_window_.addvar("csiosi_soma[5].v( 0.5 )", 2, 3, 1.04661, 0.88655, 2)
+save_window_.addvar("csi_soma[5].v( 0.5 )", 1, 3, 1.02935, 0.861893, 2)
+save_window_.label(0.854501, 0.863014, "Kv4 CSI + OSI", 2, 1, 0, 0, 2)
+save_window_.label(0.46979, 0.961644, "Voltage", 2, 1, 0, 0, 1)
+}
+{WindowMenu[0].ses_gid(1, 1, 1, "Graph")}
+objectvar scene_vector_[1]
+{doNotify()}
